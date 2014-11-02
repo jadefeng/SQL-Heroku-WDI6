@@ -1,0 +1,12 @@
+<div class="page_of_butterfly">
+	<h2><%= @butterfly.name %></h2>
+
+	<img src="<%= @butterfly.image %>">
+	<h3>Family: <em> <%= @butterfly.family %> </h3>
+
+	<section class="butterfly">
+		<a href="/butterflies/<%= @butterfly.id %>/delete">Delete</a>
+		<a href="/butterflies/<%= @butterfly.id %>/edit">Edit</a>
+
+	</section>
+</div>
